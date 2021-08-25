@@ -125,7 +125,7 @@ var Paul_Pio = function (prop) {
                     text = '已经这么晚了呀，早点休息吧，晚安~';
                 }
                 else {
-                    text = "奇趣保罗说：这个是无法被触发的吧，哈哈";
+                    text = "";
                 }
 
                 modules.render(text);
@@ -178,7 +178,7 @@ var Paul_Pio = function (prop) {
                     eval(prop.night);
                 };
                 elements.night.onmouseover = function () {
-                    modules.render("夜间点击这里可以保护眼睛呢");
+                    modules.render("点击这里可以开关夜间模式呢");
                 };
                 current.menu.appendChild(elements.night);
             }
